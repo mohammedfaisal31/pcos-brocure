@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 function App() {
   useEffect(() => {
     // Zoom out to 80% when the component mounts
-    document.body.style.transform = 'scale(0.35)';
+    document.body.style.transform = 'scale(0.45)';
     document.body.style.transformOrigin = 'top left';
   }, []);
   
