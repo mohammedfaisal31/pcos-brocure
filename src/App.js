@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    // Zoom out to 80% when the component mounts
+    document.body.style.transform = 'scale(0.8)';
+  }, []);
+  
   return (
-    <div className="App" style={{padding:"2%"}}>
+    <div className="App" >
       <>
   <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
   <title>file_1686145134533</title>
